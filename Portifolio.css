@@ -179,6 +179,48 @@ nav ul li:hover{
 }
 /* About me Section ends here */
 
+/* Contact section starts here */
+#contact_section{
+    background-color: #7AA874;
+    min-height: 95vh;
+}
+form{
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #CFDAC8;
+    flex-direction: column;
+}
+.form_input{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_input label{
+    font-size: 2rem;
+    flex: 0.3;
+}
+.form_input > input, textarea{
+    flex: 0.7;
+    width: 25rem;
+    padding: 2rem 1rem;
+    border: 0.1rem solid;
+    border-radius: 0.7rem;
+}
+textarea{
+    resize: none;
+    height: 20vh;
+}
+.form_button_field{
+    display: flex;
+    justify-content: flex-end;
+}
+.contact_button{
+    width: 30%;
+}
+/* Contact section ends here */
+
 /* Footer Section Starts here */
 .footer{
     background-color: #153448;
